@@ -109,3 +109,12 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 		this.message = message;
 	}
 }
+
+
+
+
+
+
+
+
+
