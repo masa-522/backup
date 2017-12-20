@@ -24,7 +24,7 @@
 			color:#333;
 			background:#fff;
 		}
-		teble{
+		table{
 			text-align:center;
 			margin:0 auto;
 		}

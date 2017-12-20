@@ -11,7 +11,7 @@
 	<meta http-equiv="imagetoolbar" content="no"/>
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
-<title>UserCreate画面</title>
+<title>UserCreateComplete画面</title>
 	<style type="text/css">
 	/*========TAG LAYOUT========*/
 		body{
@@ -24,7 +24,7 @@
 			color:#333;
 			background:#fff;
 		}
-		teble{
+		table{
 			text-align:center;
 			margin:0 auto;
 		}

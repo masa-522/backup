@@ -70,7 +70,6 @@ public class MyPageDAO {
 			preparedStatement.setString(2, user_master_id);
 
 			result=preparedStatement.executeUpdate();
-
 		}catch(SQLException e){
 			e.printStackTrace();
 		}finally{
