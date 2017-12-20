@@ -1,0 +1,37 @@
+・HomeActionのsessionのidはどこで入ってる？
+→アイテムを買ったあとitem_info_transactionに入ってる
+・MyPageDAOのdeleteではresultでexecuteUpdateの数字が入る
+→その数字が0より大きいならMypageActionのif文に適合する
+
+
+
+
+---------------------------------------------------------
+・result name=back は戻るってこと？
+書かなかったらどうなる？
+→使われてない記述
+・toStringってなんだ（UserCreateCompleteAction)
+→Object型で保存されているデータをストリング型として引っ張ってくる
+・GoHomeActionにsessionのゲッターとセッターの記述
+があるのはsessionを保持するためで合っているのか
+→おｋ
+	・buyItem.jspのsessionの中身はどこで入ってる？
+	・BuyItemDAOのString sql文は全部出ちゃうけどこれは仕様なのか
+	（文章に？がないから検索じゃなくて全表示）→おｋ
+・toStringってなんだ？（BuyItemAction)
+・BuyItemConfirmActionのsession.getは何をしてるのか
+→メソッドに対して引数を渡している
+ひとつめがメソッド内のひとつめに、
+ふたつめがメソッド内のふたつめに、という形で紐付く
+メソッド内のsetStringの順番は特に求められず、メソッドを呼び出した際に渡す順番と、メソッド内のかっこの順番が合ってればおｋ
+・BUyItemCompleteDAOのsetStringで、item_transaction_idとuser_master_idと
+total_countはどこから取ってきているのか
+・MyPageDAOでJOINしているのはなぜか
+→テーブルに商品の名前を含めるためにジョインしている
+ubitだけでは商品名が登録されていないので
+・MyPageActionのcontainsKeyは含んでいるという意味で
+いいのか
+・MyPageActionのIterator.hasnext()の部分はどういう処理なのか
+→意味のない記述
+そもそもif文なので1回しか回さない
+trueが帰ってくるのはおｋ
