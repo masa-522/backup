@@ -177,3 +177,14 @@
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:14:46:52 +0900] "GET /ecsite/GoHomeAction.action HTTP/1.1" 200 1766
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:14:46:53 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2781
 0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:37:09 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 9346
+127.0.0.1 - - [20/Dec/2017:15:38:29 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:38:30 +0900] "GET /ecsite/ HTTP/1.1" 200 1667
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:38:32 +0900] "POST /ecsite/HomeAction.action HTTP/1.1" 200 2261
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:38:38 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2781
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:38:39 +0900] "POST /ecsite/BuyItemAction.action HTTP/1.1" 200 2311
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:38:52 +0900] "POST /ecsite/BuyItemConfirmAction HTTP/1.1" 200 1630
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:47:33 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 629
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:47:34 +0900] "GET /ecsite/HomeAction.action HTTP/1.1" 200 2261
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:47:40 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 2781
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:15:47:41 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 2463
+0:0:0:0:0:0:0:1 - - [20/Dec/2017:16:04:27 +0900] "GET /ecsite/GoHomeAction.action HTTP/1.1" 200 1667
