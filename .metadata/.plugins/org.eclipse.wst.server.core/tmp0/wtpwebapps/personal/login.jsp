@@ -11,7 +11,7 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<meta charset="utf-8">
-<title>login.jsp</title>
+<title>login画面</title>
 	<style type="text/css">
 		/*=========TAG LAYOUT========*/
 		body{

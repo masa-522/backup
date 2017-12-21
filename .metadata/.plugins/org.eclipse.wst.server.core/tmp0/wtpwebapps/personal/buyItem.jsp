@@ -11,7 +11,7 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<meta charset="utf-8">
-<title>BuyItem.jsp</title>
+<title>BuyItem画面</title>
 	<style type="text/css">
 		/*========TAG LAYOUT========*/
 		body{

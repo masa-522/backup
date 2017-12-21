@@ -1,0 +1,10 @@
+package com.internousdev.personal.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.personal.util.DBConnector;
+
+public class MyPageDAO {
+	private DBConnector db=new DBConnector();
+	private Connection connection=db.getConnection();
+}
