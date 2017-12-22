@@ -27,3 +27,16 @@
 0:0:0:0:0:0:0:1 - - [21/Dec/2017:16:55:47 +0900] "POST /personal/StartAction HTTP/1.1" 200 2695
 0:0:0:0:0:0:0:1 - - [21/Dec/2017:16:55:50 +0900] "POST /personal/BuyItemAction.action HTTP/1.1" 200 2256
 0:0:0:0:0:0:0:1 - - [21/Dec/2017:16:55:51 +0900] "POST /personal/BuyItemFinishAction HTTP/1.1" 200 9097
+127.0.0.1 - - [21/Dec/2017:17:00:19 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:20 +0900] "GET /personal/ HTTP/1.1" 200 1619
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:26 +0900] "POST /personal/StartAction.action HTTP/1.1" 200 2184
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:33 +0900] "POST /personal/LoginAction.action HTTP/1.1" 200 2695
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:35 +0900] "POST /personal/BuyItemAction.action HTTP/1.1" 200 2256
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:37 +0900] "POST /personal/BuyItemFinishAction HTTP/1.1" 200 1586
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:40 +0900] "GET /personal/GoHomeAction.action HTTP/1.1" 200 3441
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:51 +0900] "GET /personal/ HTTP/1.1" 200 1619
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:52 +0900] "POST /personal/StartAction.action HTTP/1.1" 200 2695
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:53 +0900] "GET /personal/GoHomeAction.action HTTP/1.1" 200 3441
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:00:55 +0900] "GET /personal/MyPageAction.action HTTP/1.1" 200 3441
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:01:01 +0900] "POST /personal/BuyItemAction.action HTTP/1.1" 200 2256
+0:0:0:0:0:0:0:1 - - [21/Dec/2017:17:01:02 +0900] "POST /personal/BuyItemFinishAction HTTP/1.1" 200 1586

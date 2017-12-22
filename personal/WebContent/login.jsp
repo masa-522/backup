@@ -51,8 +51,8 @@
 			clear:both;
 		}
 		#text-link{
-			display:inline-black;
-			text-align:;
+			display:inline-block;
+			text-align:right;
 		}
 	</style>
 </head>
