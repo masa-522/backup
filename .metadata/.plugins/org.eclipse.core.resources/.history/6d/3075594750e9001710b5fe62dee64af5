@@ -8,8 +8,8 @@ public class InquiryDTO {
 	public String getUserName(){
 		return userName;
 	}
-	public void setUserName(String userName){
-		this.userName=userName;
+	public void setName(String name){
+		this.userName=Name;
 	}
 	public String getQtype(){
 		return qtype;

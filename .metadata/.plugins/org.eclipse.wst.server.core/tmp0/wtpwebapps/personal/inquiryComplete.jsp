@@ -31,7 +31,7 @@
 
 			<s:iterator value="#session.inquiryDTOList">
 				<tr>
-					<td><s:property value="name"/></td>
+					<td><s:property value="userName"/></td>
 
 						<s:if test='qtype == "company"'>
 							<td>会社について</td>
