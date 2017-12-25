@@ -11,10 +11,17 @@
 	<meta name="description" content=""/>
 	<meta name="keywords" content=""/>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 <title>！ERROR！</title>
 </head>
 <body>
-	<h1>エラーが発生しました。</h1>
-	<p>恐れ入りますが、<a href="<s:url action='StartAction'/>">ログイン</a>からやり直してください。</p>
+	<div id="header">
+	</div>
+	<div id="main">
+		<h1>エラーが発生しました。</h1>
+		<p>恐れ入りますが、<a href="<s:url action='StartAction'/>">ログイン</a>からやり直してください。</p>
+	</div>
+	<div id="footer">
+	</div>
 </body>
 </html>

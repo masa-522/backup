@@ -16,10 +16,10 @@ public class StartAction extends ActionSupport implements SessionAware{
 		if(session.containsKey("id")){
 			//アイテム情報を取得
 			ShowItemDAO showItemDAO=new ShowItemDAO();
-			ShowItemDTO buyItemDTO=showItemDAO.getShowItemInfo();
-			session.put("id",buyItemDTO.getId());
-			session.put("buyItem_name",buyItemDTO.getItemName());
-			session.put("buyItem_price", buyItemDTO.getItemPrice());
+			ShowItemDTO showItemDTO=showItemDAO.getShowItemInfo();
+			session.put("id",showItemDTO.getId());
+			session.put("buyItem_name",showItemDTO.getItemName());
+			session.put("buyItem_price", showItemDTO.getItemPrice());
 
 			result=SUCCESS;
 		}

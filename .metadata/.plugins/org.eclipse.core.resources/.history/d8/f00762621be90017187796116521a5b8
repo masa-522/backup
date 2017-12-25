@@ -1,0 +1,38 @@
+package com.internousdev.ecsite.action;
+
+import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.internousdev.ecsite.dao.ShowItemDAO;
+import com.internousdev.ecsite.dto.ShowItemDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class StartAction extends ActionSupport implements SessionAware{
+	public Map<String,Object> session;
+	/**
+	 * まずログインをセット。もしセッションの中にすでにidが入っているならば
+	 * すでにログインしているので、その場合は商品購入ページへ。
+	 */
+	public String execute(){
+		String result="login";
+		if(session.containsKey("id")){
+			//アイテム情報を取得
+			ShowItemDAO showItemDAO=new ShowItemDAO();
+			ShowItemDTO showItemDTO=showItemDAO.getShowItemInfo();
+			session.put("id", showItemDTO.getId());
+			session.put("buyItem_name", showItemDTO.getItemName());
+			session.put("showItem_price", showItemDTO.getItemPrice());
+
+			result=SUCCESS;
+		}
+		return result;
+	}
+	@Override
+	public void setSession(Map<String,Object>session){
+		this.session=session;
+	}
+	public Map<String,Object> getSession{
+		return this.session;
+	}
+}

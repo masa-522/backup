@@ -197,3 +197,6 @@
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:16:23:05 +0900] "GET /solare/colorbox-master/images/loading.gif HTTP/1.1" 200 9427
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:16:23:23 +0900] "POST /solare/GoToReservationPageAction.action HTTP/1.1" 200 9443
 0:0:0:0:0:0:0:1 - - [22/Dec/2017:16:23:26 +0900] "GET /solare/css/right.png HTTP/1.1" 404 1059
+127.0.0.1 - - [22/Dec/2017:16:27:09 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:16:27:11 +0900] "GET /personal/ HTTP/1.1" 200 1619
+0:0:0:0:0:0:0:1 - - [22/Dec/2017:17:54:40 +0900] "POST /personal/StartAction.action HTTP/1.1" 200 2189

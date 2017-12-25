@@ -40,7 +40,22 @@ create table user_buy_item_transaction(
 	delete_date datetime
 );
 
+drop table if exists inquiry;
+
+create table inquiry(
+	user_name varchar(50),
+	qtype varchar(255),
+	body varchar(255)
+);
+
 INSERT INTO item_info_transaction(item_name,item_price,item_stock)
 VALUES("NoteBook",100,50);
 INSERT INTO login_user_transaction(login_id,login_pass,user_name)
 VALUES("id","password","name");
+
+
+
+
+
+
+
