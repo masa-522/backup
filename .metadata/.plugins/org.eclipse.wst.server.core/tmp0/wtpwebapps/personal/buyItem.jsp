@@ -72,6 +72,7 @@
 				</table>
 			</s:form>
 			<div>
+				<p><a href="<s:url action='ItemCreateAction'/>">商品追加</a></p>
 				<p><a href="<s:url action='GoHomeAction'/>">HOMEへ戻る</a></p>
 				<p><a href="<s:url action='MyPageAction'/>">マイページ</a></p>
 			</div>

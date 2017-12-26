@@ -1,15 +1,15 @@
 package com.internousdev.personal.dto;
 
 public class InquiryDTO {
-	private String userName;
+	private String user_master_id;
 	private String qtype;
 	private String body;
 
-	public String getUserName(){
-		return userName;
+	public String getUser_master_id(){
+		return user_master_id;
 	}
-	public void setUserName(String userName){
-		this.userName=userName;
+	public void setUser_master_id(String user_master_id){
+		this.user_master_id=user_master_id;
 	}
 	public String getQtype(){
 		return qtype;

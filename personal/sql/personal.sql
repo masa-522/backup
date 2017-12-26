@@ -43,7 +43,7 @@ create table user_buy_item_transaction(
 drop table if exists inquiry;
 
 create table inquiry(
-	user_name varchar(50),
+	user_master_id varchar(50),
 	qtype varchar(255),
 	body varchar(255)
 );

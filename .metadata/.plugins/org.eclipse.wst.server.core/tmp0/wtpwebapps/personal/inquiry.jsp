@@ -22,21 +22,22 @@
 			<p>Inquiry</p>
 		</div>
 			<s:form method="post" action="InquiryCompleteAction">
-		名前:<input type="text" name="name"/>
-		<br>
-		お問い合わせの種類:
-		<br>
-		<select name="qtype">
-			<option value="company">会社について</option>
-			<option value="product">製品について</option>
-			<option value="support">アフターサポートについて</option>
-		</select>
-		<br>
-		お問い合わせ内容
-		<s:textarea name="body"/>
-		<br>
-		<s:submit value="登録"/>
-	</s:form>
+				お問い合わせの種類:
+				<br>
+				<select name="qtype">
+					<option value="company">会社について</option>
+					<option value="product">製品について</option>
+					<option value="support">アフターサポートについて</option>
+				</select>
+				<br>
+				お問い合わせ内容
+				<s:textarea name="body"/>
+				<br>
+				<s:submit value="送信"/>
+			</s:form>
+		<div>
+			<p>マイページは<a href="<s:url action='MyPageAction'/>">こちら</a></p>
+		</div>
 	</div>
 	<div id="footer">
 	</div>
