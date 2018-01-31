@@ -3,4 +3,8 @@
 <fullyQualifiedTypeName name="com.internousdev.personal.util.DateUtil"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.internousdev.kokotown.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.text.Normalizer"/>
+<fullyQualifiedTypeName name="com.internousdev.kokotown.dao.MasterProductStockDAO"/>
 </qualifiedTypeNameHistroy>
